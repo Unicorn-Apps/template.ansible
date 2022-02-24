@@ -1,6 +1,1 @@
----
-- hosts: test
-  gather_facts: yes
-
-  roles:
-  - role: test
+.this/test/uni
