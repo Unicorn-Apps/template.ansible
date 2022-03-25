@@ -1,0 +1,6 @@
+---
+
+- name: example Get artifact
+  get_url:
+    url: "https://github.com/*/{{release}}.tar.gz"
+    dest: "/home/{{whoami}}/Downloads/"
