@@ -3,10 +3,12 @@
 - name: get user
   shell: "echo $USER"
   register: iam
+  changed_when: no
 
 - name: available to other roles
   set_fact:
     whoami: "{{iam.stdout}}"
+  changed_when: no
 
 - name: debug
   debug:
