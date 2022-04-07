@@ -1,0 +1,5 @@
+---
+# Add some overrides here
+core:
+  enable: true
+  gui: true
