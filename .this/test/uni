@@ -5,3 +5,9 @@
   roles:
   - role: this
   - role: test
+
+  - role: option
+    tags: opt
+  
+  - role: destroy
+    tags: d, never
